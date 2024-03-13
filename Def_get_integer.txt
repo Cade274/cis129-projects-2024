@@ -1,0 +1,26 @@
+input validation (the get_integer() function)
+
+
+
+TEACH SAID USE THIS ITS FREE ITS OKAY I SWEAR
+
+
+
+
+def get_integer(message):
+    while True:
+          try:
+	user_input = int(input(message))
+	return user_input
+          except ValueError:
+	print('Incorrect data entered, please re-attempt')
+
+CAN SWAP IT OUT WITH FLOAT AND OTHER IF NEEDED
+
+def get_float(message):
+    while True:
+          try:
+	user_input = float(input(message))
+	return user_input
+          except ValueError:
+	print('Incorrect data entered, please re-attempt')
